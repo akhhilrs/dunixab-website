@@ -1,5 +1,5 @@
-# Dunixab — https://dunixab.com
+# Dunixab — https://www.dunixab.com
 User-agent: *
 Allow: /
 
-Sitemap: https://dunixab.com/sitemap.xml
+Sitemap: https://www.dunixab.com/sitemap.xml
