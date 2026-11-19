@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dunixab Animation Studios</title>
+<meta name="description" content="Dunixab is an animation movie production company in Trivandrum, Kerala, making original animated feature films, short films, series, documentaries and short stories.">
+<link rel="canonical" href="https://dunixab.com/">
+<meta name="theme-color" content="#04122e">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<!-- Social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dunixab">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Dunixab Animation Studios">
+<meta property="og:description" content="Dunixab is an animation movie production company in Trivandrum, Kerala, making original animated feature films, short films, series, documentaries and short stories.">
+<meta property="og:url" content="https://dunixab.com/">
+<meta property="og:image" content="https://dunixab.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dunixab logo over glossy blue ribbons">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@dunixab">
+<meta name="twitter:title" content="Dunixab Animation Studios">
+<meta name="twitter:description" content="Dunixab is an animation movie production company in Trivandrum, Kerala, making original animated feature films, short films, series, documentaries and short stories.">
+<meta name="twitter:image" content="https://dunixab.com/assets/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&amp;family=Inter+Tight:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261119i">
+<link rel="preload" as="image" href="assets/hero.webp">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="ribbons.js?v=20261105172554" defer></script>
+<script src="main.js?v=20261119c" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dunixab.com/#organization",
+      "name": "Dunixab",
+      "url": "https://dunixab.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dunixab.com/assets/logo.webp",
+        "width": 900,
+        "height": 279
+      },
+      "image": "https://dunixab.com/assets/og-image.jpg",
+      "description": "Animation movie production company in Trivandrum, Kerala, making original animated films with in-house VFX.",
+      "foundingDate": "2025-03",
+      "email": "contact@dunixab.com",
+      "telephone": "+91-96336-54296",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Neyyattinkara",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Dunixab",
+        "hasMap": "https://maps.app.goo.gl/PhottyUTh57yYwAa6",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Neyyattinkara",
+          "addressRegion": "Kerala",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 8.3964118,
+          "longitude": 77.0916729
+        }
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+91-96336-54296",
+        "email": "contact@dunixab.com"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/dunixab",
+        "https://www.facebook.com/dunixab",
+        "https://www.instagram.com/dunixab",
+        "https://x.com/dunixab",
+        "https://www.youtube.com/@dunixabstudio"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dunixab.com/#website",
+      "url": "https://dunixab.com/",
+      "name": "Dunixab",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://dunixab.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dunixab.com/#webpage",
+      "url": "https://dunixab.com/",
+      "name": "Dunixab Animation Studios",
+      "description": "Dunixab is an animation movie production company in Trivandrum, Kerala, making original animated feature films, short films, series, documentaries and short stories.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://dunixab.com/#website"
+      },
+      "about": {
+        "@id": "https://dunixab.com/#organization"
+      },
+      "primaryImageOfPage": "https://dunixab.com/assets/og-image.jpg"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- Compact bar that slides in once the hero is scrolled past -->
+<header class="bar" id="bar">
+  <div class="container bar-inner">
+    <a class="brand" href="./" aria-label="Dunixab home"><img src="assets/logo.webp" alt="Dunixab" width="900" height="279"></a>
+    <nav class="bar-links" aria-label="Primary">
+      <div class="nav-drop">
+        <a tabindex="0" role="button" aria-haspopup="true" data-p="feature-films short-films series documentaries short-stories additional-services">What we do</a>
+        <div class="drop">
+          <div class="drop-panel">
+            <ul>
+              <li><a href="feature-films"><span class="mono">01</span>Feature Films</a></li>
+              <li><a href="short-films"><span class="mono">02</span>Short Films</a></li>
+              <li><a href="series"><span class="mono">03</span>Series</a></li>
+              <li><a href="documentaries"><span class="mono">04</span>Documentaries</a></li>
+              <li><a href="short-stories"><span class="mono">05</span>Short Stories</a></li>
+              <li><a href="additional-services"><span class="mono">06</span>Additional Services</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <a tabindex="0" role="button" aria-haspopup="true" data-p="rnd tech libraries">R&amp;D</a>
+        <div class="drop">
+          <div class="drop-panel">
+            <ul>
+              <li><a href="rnd"><span class="mono">01</span>R&amp;D at Dunixab</a></li>
+              <li><a href="tech"><span class="mono">02</span>Tech</a></li>
+              <li><a href="libraries"><span class="mono">03</span>Libraries</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <a tabindex="0" role="button" aria-haspopup="true" data-p="open-positions teams internships">Careers</a>
+        <div class="drop">
+          <div class="drop-panel">
+            <ul>
+              <li><a href="teams"><span class="mono">01</span>Meet Our Teams</a></li>
+              <li><a href="open-positions"><span class="mono">02</span>Open Positions</a></li>
+              <li><a href="internships"><span class="mono">03</span>Internships</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="life-at-dunixab" data-p="life-at-dunixab">Life at Dunixab</a>
+      <div class="nav-drop">
+        <a tabindex="0" role="button" aria-haspopup="true" data-p="our-story leadership events faqs">More</a>
+        <div class="drop">
+          <div class="drop-panel">
+            <ul>
+              <li><a href="our-story"><span class="mono">01</span>Our Story</a></li>
+              <li><a href="leadership"><span class="mono">02</span>Leadership</a></li>
+              <li><a href="events"><span class="mono">03</span>Events</a></li>
+              <li><a href="faqs"><span class="mono">04</span>FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <button class="menu-btn" type="button" data-menu-open aria-controls="menu" aria-expanded="false"><i></i>Menu</button>
+  </div>
+</header>
+<!-- Full-screen menu (mobile) -->
+<div class="menu" id="menu" aria-hidden="true">
+  <div class="menu-head">
+    <a class="brand" href="./" aria-label="Dunixab home"><img src="assets/logo-white.webp" alt="Dunixab" width="900" height="279"></a>
+    <button class="menu-btn" type="button" data-menu-close style="display:inline-flex">Close</button>
+  </div>
+  <nav class="menu-links" aria-label="Mobile">
+    <div class="menu-group">
+      <span class="mono">What we do</span>
+      <a href="feature-films">Feature Films</a>
+      <a href="short-films">Short Films</a>
+      <a href="series">Series</a>
+      <a href="documentaries">Documentaries</a>
+      <a href="short-stories">Short Stories</a>
+      <a href="additional-services">Additional Services</a>
+    </div>
+    <div class="menu-group">
+      <span class="mono">R&amp;D</span>
+      <a href="rnd">R&amp;D at Dunixab</a>
+      <a href="tech">Tech</a>
+      <a href="libraries">Libraries</a>
+    </div>
+    <div class="menu-group">
+      <span class="mono">Careers</span>
+      <a href="teams">Meet Our Teams</a>
+      <a href="open-positions">Open Positions</a>
+      <a href="internships">Internships</a>
+    </div>
+    <div class="menu-group">
+      <a href="life-at-dunixab" data-p="life-at-dunixab">Life at Dunixab</a>
+    </div>
+    <div class="menu-group">
+      <span class="mono">More</span>
+      <a href="our-story">Our Story</a>
+      <a href="leadership">Leadership</a>
+      <a href="events">Events</a>
+      <a href="faqs">FAQs</a>
+    </div>
+  </nav>
+  <div class="menu-foot mono">
+    <a href="mailto:contact@dunixab.com">contact@dunixab.com</a>
+    <span>Kerala | India</span>
+  </div>
+</div>
+
+<section class="hero no-word">
+  <canvas class="hero-canvas" data-seed="7" data-count="4" aria-hidden="true"></canvas>
+
+  <div class="hero-top">
+    <nav class="hero-nav" aria-label="Primary">
+      <ul>
+        <li class="nav-drop">
+          <a tabindex="0" role="button" aria-haspopup="true" data-p="feature-films short-films series documentaries short-stories additional-services">What we do</a>
+          <div class="drop">
+            <div class="drop-panel">
+              <ul>
+                <li><a href="feature-films"><span class="mono">01</span>Feature Films</a></li>
+                <li><a href="short-films"><span class="mono">02</span>Short Films</a></li>
+                <li><a href="series"><span class="mono">03</span>Series</a></li>
+                <li><a href="documentaries"><span class="mono">04</span>Documentaries</a></li>
+                <li><a href="short-stories"><span class="mono">05</span>Short Stories</a></li>
+                <li><a href="additional-services"><span class="mono">06</span>Additional Services</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="nav-drop">
+          <a tabindex="0" role="button" aria-haspopup="true" data-p="rnd tech libraries">R&amp;D</a>
+          <div class="drop">
+            <div class="drop-panel">
+              <ul>
+                <li><a href="rnd"><span class="mono">01</span>R&amp;D at Dunixab</a></li>
+                <li><a href="tech"><span class="mono">02</span>Tech</a></li>
+                <li><a href="libraries"><span class="mono">03</span>Libraries</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="nav-drop">
+          <a tabindex="0" role="button" aria-haspopup="true" data-p="open-positions teams internships">Careers</a>
+          <div class="drop">
+            <div class="drop-panel">
+              <ul>
+                <li><a href="teams"><span class="mono">01</span>Meet Our Teams</a></li>
+                <li><a href="open-positions"><span class="mono">02</span>Open Positions</a></li>
+                <li><a href="internships"><span class="mono">03</span>Internships</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="life-at-dunixab" data-p="life-at-dunixab">Life at Dunixab</a></li>
+        <li class="nav-drop">
+          <a tabindex="0" role="button" aria-haspopup="true" data-p="our-story leadership events faqs">More</a>
+          <div class="drop">
+            <div class="drop-panel">
+              <ul>
+                <li><a href="our-story"><span class="mono">01</span>Our Story</a></li>
+                <li><a href="leadership"><span class="mono">02</span>Leadership</a></li>
+                <li><a href="events"><span class="mono">03</span>Events</a></li>
+                <li><a href="faqs"><span class="mono">04</span>FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <button class="menu-btn" type="button" data-menu-open aria-controls="menu" aria-expanded="false"><i></i>Menu</button>
+    <a class="brand" href="./" aria-label="Dunixab home"><img src="assets/logo-white.webp" alt="Dunixab" width="900" height="279"></a>
+  </div>
+
+  <div class="hero-mid">
+    <div class="hero-tagline">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17 7 7 17M16 17H7V8"></path></svg>
+      <p>An animation movie production company, making our own films.</p>
+    </div>
+    <nav class="hero-social" aria-label="Social">
+      <a href="https://www.linkedin.com/company/dunixab" target="_blank" rel="noopener" aria-label="LinkedIn">LI</a>
+      <span>/</span><a href="https://www.facebook.com/dunixab" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+      <span>/</span><a href="https://www.instagram.com/dunixab" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <span>/</span><a href="https://x.com/dunixab" target="_blank" rel="noopener" aria-label="X">X</a>
+      <span>/</span><a href="https://www.youtube.com/@dunixabstudio" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+    </nav>
+  </div>
+
+  <h1 class="sr-only">Dunixab — Animated movies, made in Kerala.</h1>
+
+  <div class="hero-bottom">
+    <a href="#content">Scroll down</a>
+    <span data-clock>Local time</span>
+    <span>Kerala | India</span>
+  </div>
+</section>
+
+<main id="content">
+<!-- Who we are -->
+<section class="statement">
+  <div class="container reveal">
+    <div class="label">Who we are</div>
+    <h2>Dunixab is an animation movie production company in Trivandrum — we develop and produce our own animated films, series and stories, with the visual effects made in-house.</h2>
+    <div class="thumb"><video src="assets/home/team.mp4" poster="assets/home/team.webp" width="768" height="540" muted loop playsinline preload="none" data-ambient aria-hidden="true"></video><button type="button" class="vid-toggle" aria-label="Play video" data-state="paused"><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"></path></svg><svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></button></div>
+    <p>Our storytellers, animators and VFX artists work side by side on every film, from the first idea to the final frame.</p>
+  </div>
+</section>
+
+<!-- Why Dunixab -->
+<section style="padding-top:0">
+  <div class="container">
+    <div class="head center reveal">
+      <div class="label">How we work</div>
+      <h2 class="title">One studio, from script to screen.</h2>
+    </div>
+    <div class="journey">
+      <div class="journey-media reveal">
+        <video src="assets/home/meeting.mp4" poster="assets/home/meeting.webp" width="1280" height="720" muted loop playsinline preload="none" data-ambient aria-hidden="true"></video><button type="button" class="vid-toggle" aria-label="Play video" data-state="paused"><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"></path></svg><svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg></button>
+        <div class="jcard">
+          <div class="jcard-head">Our films → <span>From script to screen</span></div>
+          <div class="jcard-id">
+            <div class="avatar" aria-hidden="true"><img src="assets/mark-white.webp" alt=""></div>
+            <div><strong>© Dunixab</strong><small>Animation · VFX · Trivandrum</small></div>
+          </div>
+          <ol class="steps" style="list-style:none">
+            <li class="step done"><i></i><b>Story</b><small>We write</small></li>
+            <li class="step done"><i></i><b>Storyboard</b><small>We plan</small></li>
+            <li class="step now"><i></i><b>Animate</b><small>We produce</small></li>
+            <li class="step"><i></i><b>Release</b><small>On screen</small></li>
+          </ol>
+        </div>
+      </div>
+      <div class="promise reveal">
+        <div class="promise-list">
+          <div class="promise-item"><span class="mono">01</span><div><h4>Our own stories</h4><p>We develop and produce our own films. Story, design, animation and visual effects are all made in our own studio.</p></div></div>
+          <div class="promise-item"><span class="mono">02</span><div><h4>Animation and VFX, side by side</h4><p>Animators and VFX artists plan every shot together, so characters, CGI and live footage fit as one.</p></div></div>
+          <div class="promise-item"><span class="mono">03</span><div><h4>Stories in every length</h4><p>Feature films, short films, series, documentaries and short stories, all made by the same team.</p></div></div>
+        </div>
+        <div class="quote">
+          <div class="label">What we make</div>
+          <ul class="areas">
+            <li><b>Films</b><span><a href="feature-films">Feature films</a>, <a href="short-films">short films</a></span></li>
+            <li><b>Stories</b><span><a href="series">Series</a>, <a href="documentaries">documentaries</a>, <a href="short-stories">short stories</a></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><div class="num">2025</div><span class="mono">Established</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container reveal">
+    <div class="label">Partner with us</div>
+    <h2>Let's bring our stories to the <span class="soft">world.</span></h2>
+    <p>Co-producers, distributors, platforms and festivals: we'd love to hear from you. Artists can see our <a href="open-positions">open positions</a>.</p>
+    <a class="btn" href="mailto:contact@dunixab.com?subject=Partnership">Partner With Us <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg></span></a>
+  </div>
+</section>
+</main>
+
+<footer class="site-foot">
+  <div class="foot-panel">
+    <div class="foot-top">
+      <div class="foot-intro">
+        <img class="foot-logo" src="assets/logo.webp" alt="Dunixab" width="900" height="279" loading="lazy">
+        <div class="foot-contact">
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg><span><a href="https://maps.app.goo.gl/vo5f93zGCHXKP4eJ9" target="_blank" rel="noopener">Floor 1, Madhav Nivas Building, Krishnapuram,<br>Neyyattinkara, Trivandrum, Kerala, India</a></span></p>
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg><span><a href="tel:+919746718461">+91 9746718461</a><br><a href="tel:+919633654296">+91 9633654296</a></span></p>
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"></rect><path d="m3 7 9 6 9-6"></path></svg><span><a href="mailto:connect@dunixab.com">connect@dunixab.com</a></span></p>
+        </div>
+        <small>GSTIN - 32AALCD6110C1ZA</small>
+        <small>CIN - U59140KL2025PTC093698</small>
+        <small>© 2025-2026 DUNIXAB. ALL RIGHTS RESERVED</small>
+      </div>
+      <div class="foot-cols">
+        <nav aria-label="What we do">
+          <h3>What we do</h3>
+          <a href="feature-films">Feature Films</a>
+          <a href="short-films">Short Films</a>
+          <a href="series">Series</a>
+          <a href="documentaries">Documentaries</a>
+          <a href="short-stories">Short Stories</a>
+          <a href="additional-services">Additional Services</a>
+        </nav>
+        <nav aria-label="R&amp;D">
+          <h3>R&amp;D</h3>
+          <a href="rnd">R&amp;D at Dunixab</a>
+          <a href="tech">Tech</a>
+          <a href="libraries">Libraries</a>
+        </nav>
+        <nav aria-label="Careers">
+          <h3>Careers</h3>
+          <a href="teams">Meet Our Teams</a>
+          <a href="open-positions">Open Positions</a>
+          <a href="internships">Internships</a>
+          <a href="life-at-dunixab">Life at Dunixab</a>
+        </nav>
+        <nav aria-label="Others">
+          <h3>Others</h3>
+          <a href="our-story">Our Story</a>
+          <a href="leadership">Leadership</a>
+          <a href="events">Events</a>
+          <a href="faqs">FAQs</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="foot-base">
+    <nav aria-label="Social">
+      <a href="https://www.linkedin.com/company/dunixab" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.facebook.com/dunixab" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/dunixab" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/dunixab" target="_blank" rel="noopener">X</a>
+      <a href="https://www.youtube.com/@dunixabstudio" target="_blank" rel="noopener">YouTube</a>
+    </nav>
+    <div class="foot-legal">
+      <a href="privacy-policy">Privacy Policy</a>
+      <a href="terms">Terms &amp; Conditions</a>
+      <a href="cookie-policy">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+</body></html>

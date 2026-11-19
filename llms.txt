@@ -1,0 +1,37 @@
+# Dunixab
+
+> Dunixab is an animation movie production company founded in March 2025 in Neyyattinkara, Trivandrum (Kerala, India). It develops and produces its own animated feature films, short films, series, documentaries and short stories in 2D and 3D, with the visual effects (VFX) made in-house. It also creates animation and VFX for other companies.
+
+- Website: https://dunixab.com/
+- Email: contact@dunixab.com
+- Phone: +91 96336 54296
+- Location: Neyyattinkara, Trivandrum, Kerala, India (https://maps.app.goo.gl/PhottyUTh57yYwAa6)
+- Social: https://www.linkedin.com/company/dunixab, https://www.facebook.com/dunixab, https://www.instagram.com/dunixab, https://x.com/dunixab, https://www.youtube.com/@dunixabstudio
+
+## Pages
+
+- [Home](https://dunixab.com/): Who Dunixab is and the films it makes.
+- [Feature Films](https://dunixab.com/feature-films): Feature films by Dunixab, Trivandrum: original feature-length 2D and 3D animated movies, developed, animated and finished in our own studio.
+- [Short Films](https://dunixab.com/short-films): Short films by Dunixab, Trivandrum: original animated shorts in 2D and 3D for festivals and audiences, made from script to screen in our own studio.
+- [Series](https://dunixab.com/series): Animated series by Dunixab, Trivandrum: original 2D and 3D series, from the series bible and pilot to full seasons for streaming, TV and online.
+- [Documentaries](https://dunixab.com/documentaries): Animated documentaries by Dunixab, Trivandrum: true stories told through 2D and 3D animation, from history to science and nature.
+- [Short Stories](https://dunixab.com/short-stories): Short animated stories by Dunixab, Trivandrum: original stories of a few minutes or less, made for phones, feeds and every screen.
+- [Additional Services](https://dunixab.com/additional-services): Additional services from Dunixab, Trivandrum: creative production, branding, animation and VFX, post production, CRM solutions, web and software development, and education courses.
+- [R&D at Dunixab](https://dunixab.com/rnd): R&D at Dunixab, Trivandrum: research into animation pipelines, real-time tools and reusable asset libraries that help us make better films.
+- [Tech](https://dunixab.com/tech): Tech at Dunixab, Trivandrum: the 2D, 3D, compositing, rendering and pipeline tools behind our animated films and VFX.
+- [Libraries](https://dunixab.com/libraries): Libraries at Dunixab, Trivandrum: reusable characters, rigs, environments, materials, motion and looks that every film we make can build on.
+- [Meet Our Teams](https://dunixab.com/teams): Meet the teams at Dunixab, Trivandrum: story, design, animation, VFX, R&D and production, working together on every film.
+- [Open Positions](https://dunixab.com/open-positions): Open positions at Dunixab, an animation movie production company in Trivandrum: roles in animation and VFX, on-site and remote.
+- [Internships](https://dunixab.com/internships): Internships at Dunixab, Trivandrum: students and new graduates learn animation and VFX on our own films, next to our artists.
+- [Life at Dunixab](https://dunixab.com/life-at-dunixab): Life at Dunixab, Trivandrum: what it is like to work at a young animation movie studio, from reviews and learning to celebrations.
+- [Our Story](https://dunixab.com/our-story): Our story: founded in March 2025 in Neyyattinkara, Trivandrum, Dunixab is an animation movie production company making its own animated films.
+- [Leadership](https://dunixab.com/leadership): Leadership at Dunixab, Trivandrum: the people leading the animation movie studio and how they lead.
+- [Events](https://dunixab.com/events): Events at Dunixab, Trivandrum: film screenings, workshops and open studio days. Follow us to hear about the next one.
+- [FAQs](https://dunixab.com/faqs): FAQs about Dunixab, Trivandrum: what we make, where we are, how to partner with us, jobs and internships.
+- [Privacy Policy](https://dunixab.com/privacy-policy): What personal information Dunixab collects, how it is used and shared, and visitors' rights.
+- [Terms & Conditions](https://dunixab.com/terms): The rules for using the website, content ownership, liability and governing law (India).
+- [Cookie Policy](https://dunixab.com/cookie-policy): No cookies of its own and no tracking, advertising or third-party cookies.
+
+## Optional
+
+- [Sitemap](https://dunixab.com/sitemap.xml)
