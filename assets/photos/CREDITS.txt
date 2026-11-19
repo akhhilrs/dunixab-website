@@ -1,0 +1,7 @@
+Photos in this folder are natural-colour 960x540 frames from Pexels 4K clips (https://www.pexels.com/video/<id>/).
+Pexels License: free to use, no attribution required. Same screened footage as the Made by People film.
+
+short-stories.webp	4110393 @ 4.5 s	a pencil sketch in a spiral sketchbook (Short Stories page + home slider)
+libraries.webp	6473945 @ 3 s	a book of colour swatches (Libraries)
+tech.webp	27660115 @ 3 s	a colour-coded edit timeline (Tech)
+events.webp	8460998 @ 4.5 s	a team high-fiving at a table (Events)

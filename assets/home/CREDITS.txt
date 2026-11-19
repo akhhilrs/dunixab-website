@@ -1,0 +1,6 @@
+Home page media: stills and loops cut from Pexels clips (https://www.pexels.com/video/<id>/), in natural colour.
+Pexels License: free to use, no attribution required.
+Same footage as the Made by People film (see its assets/CREDITS.txt for the brand/face screening).
+
+svc-02 36518090 · svc-03 34492302 · svc-04 16458944 · svc-06 8632599 · svc-10 32113838 · svc-11 4360562 (stills: clip start + 2.5 s)
+team.mp4/.webp 7505029 (2-9 s, crossfade loop) · meeting.mp4/.webp 7507705 (8-16 s, crossfade loop)
