@@ -250,6 +250,34 @@ document.querySelectorAll('dialog.modal').forEach(dlg=>{
   }
 })();
 
+/* ---------------- Partner with us popup (Home and Leadership) ---------------- */
+// The form posts to FormSubmit (emails connect@dunixab.com), which sends the visitor back here with ?partnered=1.
+(function(){
+  const dlg = document.getElementById('partner');
+  if(!dlg || typeof dlg.showModal !== 'function') return;   // no <dialog>: the buttons fall back to email
+  const html = document.documentElement, form = dlg.querySelector('form'), done = dlg.querySelector('.modal-done');
+  const f = form.elements, btn = form.querySelector('[type=submit]');
+  function show(sent){
+    form.hidden = sent; done.hidden = !sent;
+    dlg.showModal();
+    html.classList.add('modal-open');
+    if(!sent) f.name.focus();
+  }
+  document.querySelectorAll('[data-partner]').forEach(a=>a.addEventListener('click', e=>{ e.preventDefault(); show(false); }));
+  dlg.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click', ()=>dlg.close()));
+  dlg.addEventListener('close', ()=>html.classList.remove('modal-open'));
+  form.addEventListener('submit', ()=>{
+    f._subject.value = 'Partnership enquiry: ' + f.partnership.value;
+    f._next.value = location.origin + location.pathname + '?partnered=1';   // come back to this page (also on localhost)
+    btn.disabled = true;
+  });
+  addEventListener('pageshow', ()=>{ btn.disabled = false; });   // after the back button
+  if(new URLSearchParams(location.search).has('partnered')){
+    history.replaceState(null, '', location.pathname + location.hash);
+    show(true);
+  }
+})();
+
 /* ---------------- Offline page ---------------- */
 // sw.js shows /offline.html when the visitor's connection drops (service workers run on https and localhost only)
 if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(()=>{});

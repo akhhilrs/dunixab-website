@@ -6,6 +6,7 @@
 <meta name="description" content="Dunixab is an animation movie production company in Trivandrum, Kerala, making original animated feature films, short films, series, documentaries and short stories.">
 <link rel="canonical" href="https://www.dunixab.com/">
 <meta name="theme-color" content="#04122e">
+<meta name="google-site-verification" content="9GM9usNJOYqyLjG0ZX9cmJeTvLtpwDG-lQxBhgVgwhY">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -32,7 +33,7 @@
 <link rel="preload" as="image" href="assets/hero.webp">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
 <script src="ribbons.js?v=20261105172554" defer></script>
-<script src="main.js?v=20261119c" defer></script>
+<script src="main.js?v=20261120" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -375,7 +376,7 @@
     <div class="label">Partner with us</div>
     <h2>Let's bring our stories to the <span class="soft">world.</span></h2>
     <p>Co-producers, distributors, platforms and festivals: we'd love to hear from you. Artists can see our <a href="open-positions">open positions</a>.</p>
-    <a class="btn" href="mailto:contact@dunixab.com?subject=Partnership">Partner With Us <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg></span></a>
+    <a class="btn" href="mailto:connect@dunixab.com?subject=Partnership" data-partner aria-haspopup="dialog">Partner With Us <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg></span></a>
   </div>
 </section>
 </main>
@@ -442,4 +443,42 @@
     </div>
   </div>
 </footer>
+
+<!-- Partner with us popup: posts to FormSubmit, which emails each enquiry to connect@dunixab.com. -->
+<dialog class="modal" id="partner" aria-labelledby="partner-title">
+  <div class="modal-panel">
+    <div class="modal-head">
+      <div class="label">Partner with us</div>
+      <button type="button" class="modal-close" data-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+    </div>
+    <form action="https://formsubmit.co/connect@dunixab.com" method="POST">
+      <h2 id="partner-title">Let's work together</h2>
+      <p class="modal-sub">Co-producers, distributors, platforms and festivals: tell us who you are and what you have in mind.</p>
+      <input type="hidden" name="_subject" value="Partnership enquiry">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://www.dunixab.com/?partnered=1">
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" hidden>
+      <div class="field"><label for="p-name">Full name</label><input id="p-name" name="name" type="text" autocomplete="name" required></div>
+      <div class="two">
+        <div class="field"><label for="p-email">Email</label><input id="p-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="p-phone">Phone</label><input id="p-phone" name="phone" type="tel" autocomplete="tel" required placeholder="+91"></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="p-org">Company or organisation</label><input id="p-org" name="organisation" type="text" autocomplete="organization" required></div>
+        <div class="field"><label for="p-type">Partnership</label>
+          <select id="p-type" name="partnership" required><option value="" disabled selected>Choose one</option><option>Co-production</option><option>Distribution</option><option>Streaming or broadcast</option><option>Festival</option><option>Brand collaboration</option><option>Other</option></select>
+        </div>
+      </div>
+      <div class="field"><label for="p-msg">Message</label><textarea id="p-msg" name="message" required placeholder="Tell us about your company and the partnership you have in mind..."></textarea></div>
+      <button type="submit" class="btn wide">Send Enquiry <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg></span></button>
+      <p class="form-privacy">We only use your details to reply to your enquiry. See our <a href="privacy-policy">Privacy Policy</a>.</p>
+    </form>
+    <div class="modal-done" hidden role="status">
+      <h2>Thank you, we've got your message.</h2>
+      <p class="modal-sub">We'll get back to you by email soon.</p>
+      <button type="button" class="btn line plain" data-close>Close</button>
+    </div>
+  </div>
+</dialog>
 </body></html>
